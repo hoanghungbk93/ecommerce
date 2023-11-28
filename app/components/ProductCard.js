@@ -6,7 +6,7 @@ import Label from './Label';
 
 export default function ProductCard({navigation, item}) {
   const {title,name, description, price, image, isNew,rating} = item;
-  //console.log({item});
+  console.log({item});
   return (
     <Pressable onPress={() => navigation.navigate('ProductDetails',{item})} style={{}}>
       <View
@@ -18,7 +18,7 @@ export default function ProductCard({navigation, item}) {
         <Image 
         resizeMode='contain'
         style={{height:scale(200), width:scale(180)}} 
-        source={{ uri:image}} />
+        source={{ uri:"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"}} />
         {isNew && (
           <View
             style={{
@@ -48,7 +48,7 @@ export default function ProductCard({navigation, item}) {
 
       <View style={{paddingVertical: scale(5)}}>
         <Label
-          text={price}
+          text={price.toString()}
           style={{
             fontSize: scale(18),
             color: appColors.primary,

@@ -9,7 +9,7 @@ export const publicRoutes = [
     options: {
       tabBarButton: (props) => null,
       tabBarVisible: false,
-      tabBarBadge: 3,
+      tabBarBadge: "3",
       tabBarLabel: 'Welcome',
     },
   },
@@ -20,7 +20,7 @@ export const publicRoutes = [
     options: {
       tabBarButton: (props) => null,
       tabBarVisible: false,
-      tabBarBadge: 3,
+      tabBarBadge: "3",
       tabBarLabel: 'Login',
     },
   },
@@ -30,7 +30,7 @@ export const publicRoutes = [
     options: {
       tabBarButton: (props) => null,
       tabBarVisible: false,
-      tabBarBadge: 3,
+      tabBarBadge: "3",
       tabBarLabel: 'SignUp',
     },
   },
@@ -41,7 +41,7 @@ export const publicRoutes = [
     options: {
       tabBarButton: (props) => null,
       tabBarVisible: false,
-      tabBarBadge: 3,
+      tabBarBadge: "3",
       tabBarLabel: 'Verification',
     },
   },

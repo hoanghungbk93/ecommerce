@@ -8,6 +8,7 @@ import {appColors} from '../../utils/appColors';
 import Label from '../../components/Label';
 import CustomButton from '../../components/CustomButton';
 export default function index({navigation}) {
+  console.log('bestSellersList', bestSellersList)
   return (
     <KeyboardAvoidingView style={{flex:1}}>
       <Container

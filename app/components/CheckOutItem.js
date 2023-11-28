@@ -20,7 +20,8 @@ export default function CheckOutItem({ renderBagge, hideSteper,noBg, image, name
            borderRadius:  scale(noBg ? 5 : 0),
           //backgroundColor:appColors.darkGray
         }}
-        source={{uri:image} }
+        source={{uri:"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+      } }
       />
 
       <View

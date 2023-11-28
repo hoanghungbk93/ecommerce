@@ -65,7 +65,7 @@ export const RoutesList = [
     options: {
       tabBarButton: (props) => null,
       tabBarVisible: false,
-      tabBarBadge: 3,
+      // tabBarBadge: 3,
       tabBarLabel: 'ProductDetails',
     },
   },
@@ -76,7 +76,7 @@ export const RoutesList = [
     options: {
       tabBarButton: (props) => null,
       tabBarVisible: false,
-      tabBarBadge: 3,
+      // tabBarBadge: 3,
       tabBarLabel: 'WriteReview',
     },
   },
@@ -142,7 +142,7 @@ export const RoutesList = [
     options: {
       tabBarButton: (props) => null,
       tabBarVisible: false,
-      //tabBarBadge: 3,
+      // tabBarBadge: '3',
       tabBarLabel: 'CheckOutSteper',
     },
   },
